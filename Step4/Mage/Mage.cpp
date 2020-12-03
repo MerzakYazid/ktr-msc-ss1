@@ -30,10 +30,7 @@ void Mage::attack(string wp)
 		cout << this->NameGet() << " : " << "Rrrrrrrr....." << "\n";
 		cout << this->NameGet() << " : Feel the power of my " << wp << "!" << endl;
 	}
-	else
-	{
-		cout << this->NameGet() << " : I don 't need this stupid " << wp << " ! Don 't misjudge my powers !" << endl;
-	}
+
 
 }
 
