@@ -37,10 +37,7 @@ void Warrior::attack(string wp)
 		cout << this->NameGet() << " : " << "Rrrrrrrr....." << "\n";
 		cout << this->NameGet() << " : I'll crush you with my " << wp << "!" << endl;
 	}
-	else {
-		cout << this->NameGet() << " : A " << wp << "?? What should I do with this ?!" << endl;
-	}
-	
+
 	
 	
 		
