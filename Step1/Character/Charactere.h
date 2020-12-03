@@ -3,7 +3,7 @@
 #include<iostream>
 using namespace std;
 
-class Character: public Movable
+class Character
 {
 private:
 	string name;
@@ -33,7 +33,7 @@ public:
 
 	Character(string N, string R);
 
-	virtual void attack(string);
+	 void attack(string);
 
 	void showstats();
 }
